@@ -129,8 +129,9 @@ public class DividerGridItemDecoration extends RecyclerView.ItemDecoration {
             outRect.set(0, 0, 0, mDivider.getIntrinsicHeight());
         } else {
             Log.e("outRect", "outRect");
+            outRect.set(0, 0, 0, mDivider.getIntrinsicHeight());
 //            outRect.set(0, 0, mDivider.getIntrinsicWidth(), mDivider.getIntrinsicHeight());
-            outRect.set(0, 0, 0, 0);
+//            outRect.set(0, 0, 0, 0);
         }
     }
 }
